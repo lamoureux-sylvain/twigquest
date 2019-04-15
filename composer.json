@@ -1,0 +1,12 @@
+{
+    "name": "quest/twig",
+    "authors": [
+        {
+            "name": "lamoureux-sylvain",
+            "email": "lamoureux.sylvain@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.7"
+    }
+}
