@@ -1,12 +1,13 @@
 # twigquest
 
-Mise en place de Twig
+## Mise en place de Twig
+
 Crée un projet PHP (avec un dossier public et src). Crée un fichier index.php dans le dossier public. Dans ce fichier, crée un simple tableau indexé numériquement :
 
 $products = ['product1', 'product2', 'product3', 'product4', 'product5'];
 Tu peux changer le nom des produits si tu te sens inspiré ;-)
 
-Installe Twig via composer et implémente-le dans ton projet.
+## Installe Twig via composer et implémente-le dans ton projet.
 
 Crée un fichier base.html.twig, dans un dossier src/View, reprenant une structure HTML de base, dont tes autres vues vont hériter. Tu y chargeras Bootstrap et créeras un minimum de structure HTML (une navbar, un container-fluid....). Tu peux créer un fichier de style personnalisé qui sera appelé par le fichier.
 Crée une vue index.html.twig dans le dossier src/View, qui sera appelée par ton fichier index.php, et à laquelle tu passeras ton tableau $products lors de l’appel à la méthode render()..
